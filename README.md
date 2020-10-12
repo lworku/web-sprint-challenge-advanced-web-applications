@@ -28,9 +28,30 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. Explain what a token is used for.
+
+  Send a post request to an API to login,  then the API will return a token,  with that token, users can gain access to restricted resources. It acts like an electronic key to access something.
+
 2. What steps can you take in your web apps to keep your data secure?
+
+  1- Only use Authorized APIs 
+  2- Implement High-Level Authentication
+  3- testing
+  4*-Protected Routes
+
 3. Describe how web servers work.
+  
+  1- Obtaining the IP Address from domain name; 
+  2- Browser requests the full URL;
+  3- Web server responds to request;
+  4- Browser displays the web page.
+
 4. Which HTTP methods can be mapped to the CRUD acronym that we use when interfacing with APIs/Servers.
+
+  POST            Creates a new resource.
+  GET             Retrieves a resource.
+  PUT             Updates an existing resource.
+  DELETE          Deletes a resource.
+
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
